@@ -1,5 +1,7 @@
+import './scss/common.scss'
+import './scss/rainbow.scss'
 particlesJS('particles-js',
-  
+
   {
     "particles": {
       "number": {

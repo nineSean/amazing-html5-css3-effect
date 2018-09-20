@@ -21,13 +21,22 @@ ul,ol{
   justify-content: center;
   align-items: center;
   >li{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 260px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    font: 20px/1 sans-serif;
+    border-radius: 5px;
     background-color: rgba(205, 205, 205, .3);
     >*{
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    &:nth-child(2){
+      flex-direction: column;
+      align-items: stretch;
     }
   }
 }
