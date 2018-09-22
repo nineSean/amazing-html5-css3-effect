@@ -1,5 +1,6 @@
 import './scss/common.scss'
 import './scss/rainbow.scss'
+import './scss/login.scss'
 particlesJS('particles-js',
 
   {
