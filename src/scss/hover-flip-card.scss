@@ -11,12 +11,12 @@
       width: 50%;
       height: 50%;
       cursor: pointer;
-      transition: transform 3s;
+      // transition: transform 3s;
       transform-style: preserve-3d;
-
-      &:hover {
-        transform: rotateY(180deg);
-      }
+      animation: rotate 3s infinite linear;
+      // &:hover {
+      //   transform: rotateY(180deg);
+      // }
 
       .face {
         width: 100%;
@@ -45,4 +45,13 @@
     }
   }
 
+}
+
+@keyframes rotate{
+  33%{
+    transform: rotateY(-180deg);
+  }
+  66%{
+    transform: rotateZ(180deg);
+  }
 }
