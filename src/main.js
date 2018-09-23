@@ -1,6 +1,8 @@
 import './scss/common.scss'
-import './scss/rainbow.scss'
 import './scss/hover-flip-card.scss'
+import './scss/rainbow.scss'
+import './scss/cube.scss'
+
 particlesJS('particles-js',
 
   {
