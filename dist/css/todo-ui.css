@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font: 16px/1 sans-serif;
+  background: repeat url(https://i.loli.net/2018/10/07/5bb98e6b7b085.png);
+}
+ul{
+  list-style: none;
+}
+
+.todo-area{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 5px;
+  box-shadow: inset 0 0 15px rgba(0,0,0,.7);
+}
+.input-area{
+  position: relative;
+  width: 600px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.todo-area input{
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 70%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  line-height: 48px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  transition: .5s;
+}
+.todo-area input:valid,
+.todo-area input:focus{
+  right: 30%;
+}
+.input-area>label{
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  line-height: 44px;
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  transition: .5s;
+  cursor: pointer;
+}
+.todo-area input:valid+label,
+.todo-area input:focus+label{
+  transform: translateX(70%);
+  border-color: transparent;
+  background-color: transparent;
+}
+.todo-area li{
+  height: 40px;
+  line-height: 30px;
+  margin: 10px;
+  border-radius: 2px;
+  background-color: rgba(256,256,256,.5);
+  transition: .5s;
+}
+.todo-area li:hover{
+  transform: scale(1.1035);
+  background: repeat url(https://i.loli.net/2018/10/07/5bb98e6b7b085.png);
+}
+
+
+
+
+
