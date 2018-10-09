@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+input:required{
+  box-shadow: none;
+}
 .wrapper > .login-and-signup {
   position: absolute;
   left: 50%;
