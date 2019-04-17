@@ -1,5 +1,5 @@
 ## Introduce
-  - 使用HTML5和CSS3实现一些好玩、有品位的效果
+  - 使用HTML5、CSS3、JS实现动画效果
 
 ## View
   - [合集](https://ninesean.github.io/amazing-html5-css3-effect/)
